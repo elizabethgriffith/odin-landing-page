@@ -8,10 +8,15 @@ header, footer, .firstSection {
     background-color: #1F2937;
 }
 
-header {
+header, .firstSection {
     display: flex;
     justify-content: space-between;
     padding: 0 100px;
+    align-items: center;
+}
+
+.firstSection {
+    padding: 100px;
 }
 
 ul {
@@ -20,7 +25,7 @@ ul {
     gap: 20px;
 }
 
-.navLink a {
+.navLink, .heroSecondary, .signUp {
     color: #E5E7EB;
     font-size: 18px;
     text-decoration: none;
@@ -29,6 +34,20 @@ ul {
 h1 {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.heroMain {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+button {
+    background-color: #3882F6;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 3.5px;
+
 }
 .thirdSection {
     background-color: #E5E7EB;
