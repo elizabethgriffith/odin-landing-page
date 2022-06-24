@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction:column;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 header, footer, .firstSection {
@@ -49,6 +50,38 @@ button {
     border-radius: 3.5px;
 
 }
+
+.secondSection {
+    padding: 50px 100px 75px 100px;
+}
+
+
 .thirdSection {
     background-color: #E5E7EB;
+}
+
+h3 {
+    font-size: 36px;
+    color:#1F2937;
+    text-align: center;
+    margin: 0;
+}
+
+.randomInfo {
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+.fourImages {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.imageText {
+    width: 125px;
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+    color: #1F2937;
 }
