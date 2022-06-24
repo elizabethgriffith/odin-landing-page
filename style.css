@@ -51,13 +51,16 @@ button {
 
 }
 
-.secondSection {
+.secondSection, .thirdSection {
     padding: 50px 100px 75px 100px;
 }
 
 
 .thirdSection {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h3 {
@@ -84,4 +87,23 @@ h3 {
     margin: 0;
     font-size: 18px;
     color: #1F2937;
+}
+
+.quoteBlock {
+    width: 75%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-weight: lighter;
+    font-style: italic;
+    text-align: left;
+}
+
+.quoteAuthor {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
 }
